@@ -1,0 +1,62 @@
+@import 'setup';
+@import 'variables';
+
+/********General******/
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/********Header*********/
+
+header {
+	background: url(../images/mountain.jpg);
+	height: 70vh;
+	background-size: cover;
+	margin-top: 0;
+	color: white;
+}
+
+nav {
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+/*******Logo****************/
+
+.logo {
+	font-family: 'Handlee', cursive;
+}
+
+
+/*********Menu**************/
+
+.menu ul li {
+	list-style: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+/***********About**************/
+.about {
+	text-align: center;
+}
+
+.about p {
+	font-size: 18px;
+}
