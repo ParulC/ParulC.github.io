@@ -7,12 +7,32 @@
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-<form action="" method="POST">
-	<label for="name">Name </label>
-	<input type="text" id="name" name="name" maxlength="25">
-	
-	<label for="comment">Comment</label>
-	<input type="range" id="comment" name="comment">
-</form>
+	<div class=common_nav>
+		<nav class="flex-container">
+	 		<div class=logo>
+				<h1><a href="index.html">Parul Chaturvedi</a></h1>
+			</div>
+			<div class="menu">
+				<ul class="flex-container">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+<div class="wrapper">
+	<h1>Contact Me</h1>
+	<form action="" method="POST">
+		<div class="form_element">
+			<label for="name">Name </label>
+			<input type="text" id="name" name="name" maxlength="25">
+		</div>
+		<div class="form_element">
+			<label for="comment">Comment</label>
+			<textarea rows="3" cols="50" id="comment" name="comment"></textarea>
+		</div>
+	</form>
+</div>
 </body>
 </html>

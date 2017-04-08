@@ -147,9 +147,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   margin: 0 auto; }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background: #D9D9DA; }
 
-/********Header*********/
+/********Header on Home Page*********/
 header {
   background: url(../images/mountain.jpg);
   height: 70vh;
@@ -161,11 +162,15 @@ nav {
   width: 95%;
   margin: 0 auto; }
 
-/*******Logo****************/
+/***********Navigation Bar************/
 .logo {
-  font-family: 'Handlee', cursive; }
+  font-family: 'Handlee', cursive;
+  color: white; }
 
-/*********Menu**************/
+.logo a {
+  text-decoration: none;
+  color: white; }
+
 .menu ul li {
   list-style: none; }
 
@@ -174,9 +179,16 @@ nav {
   color: white;
   padding: 15px; }
 
+.common_nav {
+  background: #011B40; }
+
 /***********About**************/
 .about {
   text-align: center; }
 
 .about p {
   font-size: 18px; }
+
+/**********Contact Form************/
+.form_element {
+  margin: 30px 30px 30px 0; }
